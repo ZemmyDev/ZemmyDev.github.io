@@ -1,0 +1,329 @@
+@media (max-width: 1200px)
+    .menu
+        &_item
+            padding-right: 20px
+
+        &_link
+            font-size: 13px
+
+    .promo
+        &_header
+            font-size: 50px
+
+    .reasons
+        &_text
+            width: 300px
+
+    .mobile
+        &_item
+            width: 300px
+
+    .footer
+        &_download, &_socials
+            top: 105px
+
+@media (max-width: 991px)
+    .menu
+        &_item
+            padding-right: 10px
+
+        &_link
+            font-size: 10px
+
+    .subheader
+        &_logo
+            img
+                width: 100%
+
+        &_official
+            font-size: 11px
+
+        &_phone
+            font-size: 18px
+
+        &_btn
+            margin-top: 21px
+            width: 100%
+            height: 40px
+
+    .promo
+        &_header
+            font-size: 40px
+
+        &_subheader
+            font-size: 30px
+
+    .title
+        font-size: 35px
+
+    .reasons
+        &_item
+            flex-direction: column
+            align-items: center
+
+        &_text
+            margin-top: 20px
+
+    .choice
+        &_img
+            width: 100%
+
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0, 0, 0, 0.8)
+        transition: 0.6s all
+
+        &_active
+            left: 0
+
+        &_item
+            padding-right: 0
+            border: none
+            margin: 10px 0
+
+        &_link
+            font-size: 20px
+
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+
+        span
+            display: block
+            width: 100%
+            height: 2px
+            background-color: #ffffff
+            margin-bottom: 2px
+            transition: 0.5s all
+
+        &_active
+            span
+                margin-bottom: -2px
+
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+
+                &:nth-child(2)
+                    display: none
+
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+
+    .xs-hidden
+        display: none
+    
+    .xs-visible
+        display: block
+
+    .subheader
+        &_phone
+            display: block
+            margin-top: 10px
+            font-weight: 400
+            font-size: 16px
+            text-align: center
+            color: #ffffff
+
+        &_btn
+            display: block
+            width: 200px
+            height: 40px
+            margin: 0 auto
+            margin-top: 10px
+
+    .promo
+        min-height: 400px
+        padding: 93px 0 34px
+
+        &_header
+            line-height: 45px
+
+        &_descr
+            display: none
+
+        &_btn
+            margin-top: 72px
+
+    .title
+        margin-top: 16px
+        font-size: 16px
+        line-height: 16px
+
+    .subtitle
+        margin-top: 9px
+        font-size: 14px
+        line-height: 21px
+
+    .reasons
+        padding: 20px 0 38px
+
+        &_round
+            margin-right: 0
+
+    .mobile
+        padding: 25px 0 43px
+
+        &_item
+            &_subtitle
+                font-size: 18px
+                line-height: 31px
+
+    .choice
+        min-height: 393px
+        padding: 25px 0 31px
+        background: #000000
+
+        &_top
+            display: none
+
+        &_text
+            color: #ffffff
+
+    .require
+        padding: 22px 0 30px
+
+        &_block
+            margin: 20px 0
+
+        &_list
+            margin: 0
+
+            li
+                margin-bottom: 5px
+
+        &_descr
+            margin-top: 15px
+
+    .world
+        min-height: 360px
+        padding: 24px 0 30px
+
+        &_link
+            margin-top: 212px
+
+    .footer
+        height: 255px
+        padding: 24px 0 30px
+
+        &_download
+            top: 201px
+            left: 50%
+            transform: translateX(-50%)
+
+        &_socials
+            top: 150px
+            left: 50%
+            transform: translateX(-50%)
+
+@media (max-width: 575px)
+    header
+        height: 30px
+
+    nav
+        height: 30px
+
+    .menu
+        width: 85%
+
+        &_item
+            width: 100%
+            text-align: center
+            padding: 5px 0
+
+        &_link
+            display: block
+
+    .subheader
+        top: 30px
+        height: 60px
+
+        &_logo
+            margin-top: 16px
+
+        &_official
+            display: none
+
+        &_phone
+            font-size: 12px
+            margin-top: 11px
+
+        &_btn
+            width: 110px
+            height: 22px
+            font-size: 10px
+            margin-top: 6px
+
+    .promo
+        &_header
+            font-size: 30px
+            padding: 0 24px
+            line-height: 35px
+
+        &_subheader
+            font-size: 20px
+            line-height: 30px
+            margin-top: 33px
+            padding: 0 10px
+
+        &_btn
+            width: 210px
+            height: 50px
+            margin-top: 72px
+
+    .reasons
+        &_round
+            width: 100px
+            height: 100px
+
+    .footer
+        height: 275px
+
+        &_line
+            width: 255px
+            height: 6px
+
+        &_menu
+            margin-top: 21px
+
+            &_list
+                padding: 0
+
+                li
+                    margin: 0
+                    margin-right: 13px
+
+                    &:last-child
+                        margin-right: 0
+
+                    a
+                        font-size: 14px
+
+        &_submenu
+            &_list
+                flex-wrap: wrap
+                justify-content: space-between
+
+                li
+                    a
+                        font-size: 11px
+
+        &_socials
+            top: 170px
+
+        &_download
+            top: 220px
+            left: 40%
